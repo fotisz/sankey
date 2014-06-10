@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>SANKEY Experiment</title>
+<title>Sankey Prototype</title>
 <style>
  
 .node rect {
@@ -73,7 +73,7 @@ d3.csv("energy.csv", function(error, data) {
                     graph.links.push({ "source": d.source, "target": d.target, "value": +d.value });
                 });
 
-                //thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+                //https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
                 //this handy little function returns only the distinct / unique nodes
                 graph.nodes = d3.keys(d3.nest()
                          .key(function (d) { return d.name; })
