@@ -1,6 +1,4 @@
-This simply forks the [d3noob example](http://bl.ocks.org/d3noob/5028304) to allow a csv as the data source.  I am sure that this is probably the ugliest way to do it, but it does work.  Please let me know if you have any comments.
-
-Original [d3noob.org](http://www.d3noob.org/) Readme.md is below
+Sankey diagrams are a specific type of flow diagram, in which the width of the arrows is shown proportionally to the flow quantity. They are typically used to visualize energy or material or cost transfers between processes.
 ------
 
 This is an example of a Sankey diagram made using d3.js and the sankey plugin. 
